@@ -1,15 +1,39 @@
 /* Add your code in each class */
 body {
+  background-color: rgb(46, 2, 46);
 }
 .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 640px;
+  
 }
 .movie-card {
+
+  
+  
+  width: 320px;
+  height:380px;
+  
 }
 .movie-image {
+  position: absolute;
+  width: inherit;
+  height:inherit;
+  
+  object-fit: cover;
 }
 .movie-details-container {
+  color:white;
+  position: absolute;
+  bottom:10%;
+  
 }
 .descriptions {
+  padding: 20px;
+  
+  font-size: 18px;
 }
 
 /*A gift from us!*/
@@ -18,8 +42,8 @@ body {
     This gradient was made by this website https://cssgradient.io/
 */
   position: absolute;
-  height: 100%;
-  width: 100%;
+  height: auto;
+  width: auto;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     0deg,
@@ -28,4 +52,6 @@ body {
   );
 }
 .movie-title {
+  font-weight: bold;
+  font-size: 28px;
 }

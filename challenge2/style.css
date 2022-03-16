@@ -1,0 +1,29 @@
+body{
+    
+    background-image: url("/assets/pokemon-bg.jpg");
+    z-index: -1;
+    
+}
+.flex-container{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 600px;
+
+}
+.pika-card{
+    height:300px;
+    width: 275px;
+    background-color: white;
+    border-radius: 12.5%;
+    text-align: center;
+    box-shadow: 5px 5px 15px 5px #000000;
+    padding: 20px;
+}
+
+.pika-pic{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+

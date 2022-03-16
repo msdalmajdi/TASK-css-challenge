@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(46, 2, 46);
+}
+
+
+.container-pic{
+
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.harry-pic{
+
+    width: 240px;
+    height:400px;
+}
+
+.container-title{
+    font-size: 48px;
+    font-family: Papyrus,fantasy;
+    color:white;
+    text-align: center;
+}
+
+.container-paragraph{
+    color:white;
+    text-align: center;
+
+}

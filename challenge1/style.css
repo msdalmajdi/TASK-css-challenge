@@ -2,7 +2,10 @@ body{
     background-color: rgb(46, 2, 46);
 }
 
-
+#challenge-1{
+    background-color:white;
+    color:black;
+}
 .container-pic{
 
     text-align: center;
@@ -14,6 +17,7 @@ body{
 
     width: 240px;
     height:400px;
+    border-radius: 5%;
 }
 
 .container-title{

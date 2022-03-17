@@ -1,8 +1,15 @@
+#challenge-4{
+  background-color:white;
+  color:black;
+}
 /* Add your code in each class */
 body {
+
   background-color: rgb(46, 2, 46);
+
 }
 .container {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -10,29 +17,30 @@ body {
   
 }
 .movie-card {
-
-  
   
   width: 320px;
   height:380px;
   
 }
 .movie-image {
+
+
   position: absolute;
   width: inherit;
   height:inherit;
-  
+
   object-fit: cover;
 }
 .movie-details-container {
+
   color:white;
   position: absolute;
   bottom:10%;
   
 }
 .descriptions {
+
   padding: 20px;
-  
   font-size: 18px;
 }
 

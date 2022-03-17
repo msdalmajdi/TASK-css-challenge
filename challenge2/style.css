@@ -1,9 +1,15 @@
+#challenge-2{
+    background-color:white;
+    color:black;
+}
+
 body{
     
     background-image: url("/assets/pokemon-bg.jpg");
     z-index: -1;
     
 }
+
 .flex-container{
 display: flex;
 justify-content: center;
@@ -11,6 +17,7 @@ align-items: center;
 height: 600px;
 
 }
+
 .pika-card{
     height:300px;
     width: 275px;

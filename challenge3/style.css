@@ -1,3 +1,8 @@
+#challenge-3{
+  background-color:white;
+  color:black;
+}
+
 /* Add your code in each class */
 .container {
   height: 300px;
@@ -25,7 +30,7 @@
   color: antiquewhite;
   text-align: center;
   font-size: 24px;
-
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   position: sticky;
   top: 0;
 }
@@ -34,7 +39,6 @@
   background-color: yellowgreen;
   color: black;
   
-  overflow: auto;
   
   /* .row is used in ./index.js not in the html filee */
 }
